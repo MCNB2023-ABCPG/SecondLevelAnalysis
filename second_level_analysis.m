@@ -21,8 +21,6 @@ contrasts{1}.weights = [1];
 contrasts{1}.sessrep = 'non';
 second_level_contrast(folder_path_results, contrasts);
 
-
-
 % Cleanup
 rmpath(fullfile(folder_path_root, 'jobs'));
 rmpath(spm_path)
